@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Демо день Чурин</title>
+  </head>
+
+  <body>
+    <header class="header">
+
+      <div class="header__conteiner1">
+
+        <img src="./img/logo.svg" alt="Логотип">
+
+        <nav>
+          <ul class="nav__list">
+            <li><a class="nav__link" href="#tours">Туры</a></li>
+            <li><a class="nav__link" href="#training">Обучение</a></li>
+            <li><a class="nav__link" href="#about">О нас</a></li>
+            <li><a class="nav__link" href="#comment">Отзывы</a></li>
+            <li><a class="nav__link" href="#photos">Фотографии</a></li>
+            <li><a class="nav__link" href="#сontacts">Контакты</a></li>
+          </ul>
+        </nav>
+
+        <a class="header__tel" href="tel:+78007253232">8 800 725 32 32</a>
+      </div>
+
+      <div class="header__conteiner2">
+          <h1 class="title" data-text="trekking">Походы в горы России</h1>
+
+        <p class="header__desc">Профессионально организовываем экскурсии
+          на самые красивые вершины страны </p>
+
+        <button class="header__btn">Выбрать экскурсию</button>
+
+        <div class="logo__list">
+          <a class="logo__item" href="https://vk.com" target="_blank"><img src="./img/vk.svg" alt="Лого vk"></a>
+          <a class="logo__item" href="https://facebook.com" target="_blank"><img src="./img/facebook.svg" alt="Лого facebook"></a>
+          <a class="logo__item" href="https://instagram.com" target="_blank"><img src="./img/instagram.svg" alt="Лого instagram"></a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section" id="tours">
+        <div class="conteiner background">
+          <img class="background1" src="./img/background1.png" alt="фон">
+          <h2 class="sec_heading" data-text="Ближайшие туры">Ближайшие туры</h2>
+
+          <ul class="tour_list">
+            <li class="tour_item" style="background: url(./img/tour1.jpg) no-repeat;">
+              <ul class="tour_sublist">
+                <li class="tour_location">Кавказ</li>
+                <li class="tour_day">4 дня</li>
+                <li class="tour_night">3 ночи</li>
+              </ul>
+
+              <h3 class="tour_heading">Путешествие вокруг Эльбруса</h3>
+
+              <ul class="tour_sublist">
+                <li class="tour_desc">
+                  <div class="tour_text1">Сложность:</div>
+                  <code class="code">&#x2605&#x2605&#x2605&#x2606&#x2606</code>
+                </li>
+                <li class="tour_desc">
+                  <div class="tour_text1">Даты набора:</div>
+                  <div class="tour_text2">12.06-19.06</div>
+                </li>
+                <li class="tour_desc">
+                  <div class="tour_text1">Группа:</div>
+                  <div class="tour_text2">до 15 чел.</div>
+                </li>
+              </ul>
+            </li>
+
+            <li class="tour_item" style="background: url(./img/tour2.jpg) no-repeat;">
+              <ul class="tour_sublist">
+                <li class="tour_location">Алтай</li>
+                <li class="tour_day">14 дня</li>
+                <li class="tour_night">13 ночи</li>
+              </ul>
+
+              <h3 class="tour_heading">Путь к подножию Белухи</h3>
+
+              <ul class="tour_sublist">
+                <li class="tour_desc">
+                  <div class="tour_text1">Сложность:</div>
+                  <code class="code">&#x2605&#x2605&#x2606&#x2606&#x2606</code>
+                </li>
+                <li class="tour_desc">
+                  <div class="tour_text1">Даты набора:</div>
+                  <div class="tour_text2">14.06-23.06</div>
+                </li>
+                <li class="tour_desc">
+                  <div class="tour_text1">Группа:</div>
+                  <div class="tour_text2">до 25 чел.</div>
+                </li>
+              </ul>
+            </li>
+
+            <li class="tour_item" style="background: url(./img/tour3.jpg) no-repeat;">
+              <ul class="tour_sublist">
+                <li class="tour_location">Адыгея</li>
+                <li class="tour_day">7 дня</li>
+                <li class="tour_night">6 ночи</li>
+              </ul>
+
+              <h3 class="tour_heading">Через Фишт к Черному морю</h3>
+
+              <ul class="tour_sublist">
+                <li class="tour_desc">
+                  <div class="tour_text1">Сложность:</div>
+                  <code class="code">&#x2605&#x2605&#x2605&#x2606&#x2606</code>
+                </li>
+                <li class="tour_desc">
+                  <div class="tour_text1">Даты набора:</div>
+                  <div class="tour_text2">15.07-19.07</div>
+                </li>
+                <li class="tour_desc">
+                  <div class="tour_text1">Группа:</div>
+                  <div class="tour_text2">до 22 чел.</div>
+                </li>
+              </ul>
+            </li>
+
+          </ul>
+
+          <a class="view_tours" href="./files/tours_price.docx" download>Показать все туры</a>
+        </div>
+      </section>
+
+      <section class="section sec_border" id="training">
+        <div class="conteiner">
+
+          <h2 class="sec_heading" data-text="Обучение">Обучение</h2>
+
+          <p class="training_desc">Обучение проводится квалифицированными специалистами, за плечами которых десятки
+            пройденных маршрутов Кавказа, Крыма, Гималаев, Эльбруса, Алтая, Карелии, Адыгеи и других.
+          </p>
+
+          <h3 class="sec_subheading">Наши инструкторы</h3>
+
+          <ul class="training_list">
+            <li class="training_item">
+                <img src="./img/training1.jpg" alt="Фото тренера">
+                <div class="training_social">
+                  <h4 class="training_name">Александр Прокофьев</h4>
+                  <a class="training_link_vk" href="https://vk.com" target="_blank"><img src="./img/vk2.svg" alt="лого вк"></a>
+                </div>
+                <p class="training_text">Любит природу. Строгий, справедливый и внимательный инструктор, веселый
+                и общительный человек.
+                </p>
+            </li>
+
+            <li class="training_item">
+              <img src="./img/training2.jpg" alt="Фото тренера">
+              <div class="training_social">
+                <h4 class="training_name">Светлана Афиногенова</h4>
+                <a class="training_link_vk" href="https://vk.com" target="_blank"><img src="./img/vk2.svg" alt="лого вк"></a>
+              </div>
+              <p class="training_text">Видеть мир вокруг, познавать его опасности, смотреть
+                 сквозь стены, находить друг друга, становиться ближе, чувствовать — в этом назначение жизни.
+              </p>
+            </li>
+
+            <li class="training_item">
+              <img src="./img/training3.jpg" alt="Фото тренера">
+              <div class="training_social">
+                <h4 class="training_name">Надежда Колесниченко</h4>
+                <a class="training_link_vk" href="https://vk.com" target="_blank"><img src="./img/vk2.svg" alt="лого вк"></a>
+              </div>
+              <p class="training_text">Участники говорят, что Надежда ответственная,
+                приятная в общении, и в поездках с ней чувствуешь себя спокойно и уверенно.
+              </p>
+            </li>
+
+            <li class="training_item">
+              <img src="./img/training4.jpg" alt="Фото тренера">
+              <div class="training_social">
+                <h4 class="training_name">Федор Кайгородов</h4>
+                <a class="training_link_vk" href="https://vk.com" target="_blank"><img src="./img/vk2.svg" alt="лого вк"></a>
+              </div>
+              <p class="training_text">Опыт походов: Ходит в походы с 2001 года. В России побывал
+                в горных районах Хибины, приэльбрусье, Архыз, много путешествует по Европе.
+              </p>
+            </li>
+
+            <li class="training_item">
+              <img src="./img/training5.jpg" alt="Фото тренера">
+              <div class="training_social">
+                <h4 class="training_name">Сергей Денисов</h4>
+                <a class="training_link_vk" href="https://vk.com" target="_blank"><img src="./img/vk2.svg" alt="лого вк"></a>
+              </div>
+              <p class="training_text">Профессиональный гид, путешественник, спортсмен, альпинист.
+                Блестящий рассказчик, собеседник; с ним не скучно.
+              </p>
+            </li>
+          </ul>
+
+          <h3 class="sec_subheading">Процесс обучения</h3>
+
+          <ul class="training_process_list">
+
+            <li class="training_process_item">
+              <img src="./img/training_process1.svg" alt="Лого процесса тренировки">
+              <p class="training_process_desc">Изучение спортивного
+                туристского движения</p>
+            </li>
+
+            <li class="training_process_item">
+              <img src="./img/training_process2.svg" alt="Лого процесса тренировки">
+              <p class="training_process_desc">Подготовка и техническое
+                снаряжение в походах</p>
+            </li>
+
+            <li class="training_process_item">
+              <img src="./img/training_process3.svg" alt="Лого процесса тренировки">
+              <p class="training_process_desc">Лекции по экологии,
+                окружающей среде и гигиене</p>
+            </li>
+
+            <li class="training_process_item">
+              <img src="./img/training_process4.svg" alt="Лого процесса тренировки">
+              <p class="training_process_desc">Разъяснение характера
+                горных препядствий и их сложности</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="conteiner background about_block" >
+          <img class="background2" src="./img/background2.jpg" alt="фон">
+          <div class="about_posicion">
+            <h2 class="sec_heading" data-text="О нас">О нас</h2>
+            <h3 class="sec_subheading">История компании</h3>
+            <p class="about_desc">
+              В далеком 2000 году мы начали заниматься туризмом - походы, поездки, восхождения,
+               нам это настолько понравилось, что мы этим стали жить.
+              Спустя 5 лет, в 2005 году мы основали компанию, чтобы показывать людям удивительные
+               места нашей страны.
+            </p>
+            <h3 class="sec_subheading">Наша цель </h3>
+            <p class="about_desc">
+              Подарить вам незабываемые впечатления от похода в горы. Мы берем на себя все
+               организационные вопросы. При организации мы обязательно учтем все ваши пожелания.
+                Вам остенется только наслаждаться незабываемым приключеним.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="comment">
+        <div class="conteiner">
+
+          <h2 class="sec_heading" data-text="Отзывы">Отзывы</h2>
+
+          <ul class="comment_list">
+            <li class="comment_item">
+              <div class="comment_card">
+                <img src="./img/comment1.jpg" alt="фото автора отзыва">
+                <div>
+                  <h4 class="comment_name">Фролов Александр</h4>
+                  <p class="comment_name_info">28 лет, Москва</p>
+                </div>
+              </div>
+              <p class="comment_desc">Осенью ходили в поход с друзьями. Впечатления исключительно положительные! Инструкторы - настоящие эксперты - всему научили, все показали. Рассказали истории
+                о всех местах, которые мы так
+                или иначе посещали
+              </p>
+              <p class="comment_desc">С уверенностью могу разделить жизнь
+                на до этого похода и после. Настолько сильно не отдыхал душой и телом никогда.
+               Всем рекомендую!
+              </p>
+            </li>
+
+            <li class="comment_item">
+              <div class="comment_card">
+                <img src="./img/comment2.jpg" alt="фото автора отзыва">
+                <div>
+                  <h4 class="comment_name">Светлана Олейник</h4>
+                  <p class="comment_name_info">25 лет, Владивосток</p>
+                </div>
+              </div>
+              <p class="comment_desc">Хороший полноценный поход с разнообразными локациями. В начале дорога идет по лыжне, далее прошли мимо полигона, по болотам, у озер и лесных ручьев, остатков дач конца 19 века.
+                Инструктор Федор Кайгородов добросовестный
+                и внимательный к технике безопасности и своим туристам.
+              </p>
+              <p class="comment_desc">Совет для будущих походников: важно соблюсти рекомендации в памятке.
+              </p>
+            </li>
+
+            <li class="comment_item">
+              <div class="comment_card">
+                <img src="./img/comment3.jpg" alt="фото автора отзыва">
+                <div>
+                  <h4 class="comment_name">Евгения Баженова</h4>
+                  <p class="comment_name_info">23 года, Кастрома</p>
+                </div>
+              </div>
+              <p class="comment_desc">Поход понравился!!
+                Ранее не ходила на такие длинные дистанции. В первый день прошли около 30 км,
+                 физически я устала на 18м, поэтому не была уверена, пройду ли до конца. Но шла и шла впереди, не плелась в конце группы. К моему удивлению второй день прошел для меня легче, чем ожидала, видимо дело привычки.
+              </p>
+              <p class="comment_desc">Спасибо ребятам и инструкторам за помощь
+                и поддержку!
+              </p>
+            </li>
+
+
+          </ul>
+        </div>
+
+      </section>
+
+      <section class="section" id="photos">
+        <div class="conteiner">
+          <h2 class="sec_heading" data-text="Фотогалерея">Фотогалерея</h2>
+          <p class="photos_desc">Добавляйте фото в Instagram с хэштегом <span>#лайфтур</span>, а также отмечайте нас на фото.
+            Лучшие фотографии украсят этот раздел нашего сайта.
+          </p>
+        </div>
+
+        <div class="photos_conteiner">
+          <ul class="photos_list">
+            <li class="photos_item1">
+              <img src="./img/photos1.jpg" alt="фото">
+            </li>
+            <li class="photos_item2">
+              <img src="./img/photos2.jpg" alt="фото">
+              <img src="./img/photos3.jpg" alt="фото">
+            </li>
+            <li class="photos_item1">
+              <img src="./img/photos4.jpg" alt="фото">
+            </li>
+            <li class="photos_item2">
+              <img src="./img/photos5.jpg" alt="фото">
+              <img src="./img/photos6.jpg" alt="фото">
+            </li>
+            <li class="photos_item1">
+              <img src="./img/photos7.jpg" alt="фото">
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__conteiner" id="сontacts">
+
+        <div class="footer__block1">
+          <img src="./img/logo2.svg" alt="Логотип">
+          <nav>
+            <ul class="footer__list">
+              <li><a class="footer__link" href="#tours">Туры</a></li>
+              <li><a class="footer__link" href="#training">Обучение</a></li>
+              <li><a class="footer__link" href="#about">О нас</a></li>
+              <li><a class="footer__link" href="#comment">Отзывы</a></li>
+              <li><a class="footer__link" href="#photos">Фотографии</a></li>
+              <li><a class="footer__link" href="#сontacts">Контакты</a></li>
+            </ul>
+          </nav>
+          <a class="footer__tel" href="tel:+78007253232">8 800 725 32 32</a>
+        </div>
+
+        <div class="footer__block2">
+          <a class="logo__footer" href="https://vk.com" target="_blank"><img src="./img/vk2.svg" alt="Лого vk"></a>
+          <a class="logo__footer" href="https://facebook.com" target="_blank"><img src="./img/facebook2.svg" alt="Лого facebook"></a>
+          <a class="logo__footer" href="https://instagram.com" target="_blank"><img src="./img/instagram2.svg" alt="Лого instagram"></a>
+        </div>
+      </div>
+      <a class="footer_doc" href="./files/file.docx" download>Политика конфиденциальности</a>
+
+    </footer>
+  </body>
+</html>
